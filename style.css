@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Open Sans', sans-serif; 
+  color: #385d80;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+p {
+    display: block;
+    margin: 40px 20px;
+    font-weight: 500;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(240, 185, 66, .6);
+}
+
+a {
+  color: #0099cc;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+    padding: 0px 8px;
+}
+
+.social-icon {
+   font-size: 64px;
+   font-weight: 500;
+   color: rgba(54, 56, 110, .2);
+}
+
+.social-icon:hover {
+  color: rgb(24, 40, 54);
+}
+
+.btn-blue {
+  background-color: rgb(54, 56, 110);
+  color: white;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(24, 40, 54);
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
